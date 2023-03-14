@@ -5,8 +5,8 @@ from time import sleep
 import requests
 from fake_useragent import UserAgent
 
-from report_data.into_mysql import insert_mysql
-from report_data.ip_redis import my_redis
+from tech_data.into_mysql import insert_mysql
+from tech_data.ip_redis import my_redis
 
 """
 post方法参数

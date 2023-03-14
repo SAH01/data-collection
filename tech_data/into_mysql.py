@@ -1,6 +1,6 @@
 #连接数据库  获取游标
 import pymysql
-from report_data.category import get_code
+from tech_data.category import get_code
 
 def get_conn():
     """
